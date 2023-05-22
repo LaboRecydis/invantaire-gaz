@@ -20,11 +20,10 @@ if __name__=="__main__":
         layout="centered"
     )
 
-    st.title("Analyses pour déterminer la fillière de traitement adéquate")
+    st.title("Inventaire gaz")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
-    st.write("GRV de résines AKZO non pompables")
-    st.write("Pâteux visqueux non pompable")
+  
    
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
