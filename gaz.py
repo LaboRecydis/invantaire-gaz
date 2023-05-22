@@ -53,7 +53,7 @@ if __name__=="__main__":
     st.write(" * ## Helium")
     img_He_1 = Image.open("He_1.jpg")
     st.image(img_He_1, width=700)
-    st.write(" ")
+    st.write("------------------------------------------------ ")
     st.write(" * ## CO2")
     img_CO2 = Image.open("CO2.jpg")
     st.image(img_CO2, width=700)
