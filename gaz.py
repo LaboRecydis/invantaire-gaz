@@ -106,7 +106,7 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
     
-    st.write("* Quatrième partie : détail sur la vidéo")
+    st.write("* Quatrième partie ")
     img_O2_3 = Image.open("O2_3.jpg")
     st.image(img_O2_3, width=700)
     
