@@ -29,27 +29,27 @@ if __name__=="__main__":
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
     img2 = Image.open("IMG_RECYDIS.jfif") 
-    img3 = Image.open("photo_resine1.jpg")
-    img4 = Image.open("photo_resine3.jpg")
-    img5 = Image.open("photo_PE.jpg")
+    
+  
     st.sidebar.image(img1, width=250)
     st.sidebar.image(img2, width=250)
 
 
     
-    st.write("Photos du déchet")
-    st.image(img4, width=250)
-    st.image(img3, width=250)
+#     st.write("Photos du déchet")
+#     st.image(img4, width=250)
+#     st.image(img3, width=250)
     
-    st.write("Vidéos : texture du déchet")
-    video_file = open('video-resine.mp4', 'rb')
+    st.write("Vidéos : butane - propane")
+    st.write("* Partie 1)
+    video_file = open('prop-1_zmdztHeY.mp4', 'rb')
     video_bytes = video_file.read()
 
-    st.video(video_bytes)
+#     st.video(video_bytes)
     
-    st.write("Point éclair = 115,0 °C")
-    st.image(img5)
-    st.write("Pas de chlore (test de flamme négatif au chlore)")
+#     st.write("Point éclair = 115,0 °C")
+#     st.image(img5)
+#     st.write("Pas de chlore (test de flamme négatif au chlore)")
   
 
 
