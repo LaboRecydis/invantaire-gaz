@@ -55,10 +55,9 @@ if __name__=="__main__":
     img_PROP_4 = Image.open("PROP_4.jpg")
     st.image(img_PROP_4, width=700)
     
-    st.write("* Cinquième partie : visualisez la vidéo s'il vous plaît")
-    video_file = open('PROP_5.mp4', 'rb')
-    video_bytes = video_file.read()
-    st.video(video_bytes)
+    st.write("* Cinquième partie ")
+    img_PROP_5 = Image.open("PROP_5.jpg")
+    st.image(img_PROP_5, width=700)
     
     st.write("* Sixième partie : visualisez la vidéo s'il vous plaît")
     video_file = open('PROP_6.mp4', 'rb')
