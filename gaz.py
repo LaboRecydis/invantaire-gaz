@@ -34,13 +34,20 @@ if __name__=="__main__":
     st.sidebar.image(img2, width=250)
 
     
-   
+     st.write(" * ## Butane / Propane")
     st.write("Vidéos : butane - propane")
-    st.write("* Partie 1")
+    st.write("* 1.")
     video_file = open('prop-1_zmdZtHeY.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
+    st.write("* 4.")
+    img_PROP_4 = Image.open("PROP_4.jpg")
+    st.image(img_PROP_4, width=700)
+    
+    st.write("* 5.")  
+    img_PROP_5 = Image.open("PROP_5.jpg")
+    st.image(img_PROP_5, width=700)
 #     st.write("Point éclair = 115,0 °C")
 #     st.image(img5)
 #     st.write("Pas de chlore (test de flamme négatif au chlore)")
@@ -72,15 +79,9 @@ if __name__=="__main__":
     
     st.write("------------------------------------------------ ")
        
-    st.write(" * ## Butane / Propane")
-    img_PROP_4 = Image.open("PROP_4.jpg")
-    st.image(img_PROP_4, width=700)
-       
-    img_PROP_5 = Image.open("PROP_5.jpg")
-    st.image(img_PROP_5, width=700)
     
-    st.write("------------------------------------------------ ")
-       
+    
+        
     st.write(" * ## CCl2F2")
     img_CCL2F2 = Image.open("CCL2F2.jpg")
     st.image(img_CCL2F2, width=700)
