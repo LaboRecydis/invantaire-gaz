@@ -94,6 +94,11 @@ if __name__=="__main__":
     st.image(img_O2_1, width=700)
     
     st.write("Détail sur la vidéo")
+    video_file = open('O2_1.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
+    st.write("Détail sur la vidéo")
     video_file = open('O2_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
