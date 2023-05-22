@@ -52,9 +52,9 @@ if __name__=="__main__":
 
     st.write("Helium")
     img_He_1 = Image.open("He_1.jpg")
-    img_He_2 = Image.open("He_2.jpg")
+    
     st.image(img_He_1, width=250)
-    st.image(img_He_2, width=250)
+ 
   
 
 
