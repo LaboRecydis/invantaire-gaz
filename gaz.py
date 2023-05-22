@@ -41,20 +41,47 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
     
-    st.write("* Quatrième partie :")
+    st.write("* Deuxième partie : visualisez la vidéo s'il vous plaît")
+    video_file = open('PROP_2.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
+    st.write("* Troisième partie : visualisez la vidéo s'il vous plaît")
+    video_file = open('PROP_3.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
+    st.write("* Quatième partie : visualisez la vidéo s'il vous plaît")
+    video_file = open('PROP_4.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
+    st.write("* Cinquième partie : visualisez la vidéo s'il vous plaît")
+    video_file = open('PROP_5.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
+    st.write("* Sixième partie : visualisez la vidéo s'il vous plaît")
+    video_file = open('PROP_6.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
+    
+    st.write("* Septième partie :")
     img_PROP_4 = Image.open("PROP_4.jpg")
     st.image(img_PROP_4, width=700)
     
-    st.write("* Cinquième partie :")  
+    st.write("* Huitième partie :")  
     img_PROP_5 = Image.open("PROP_5.jpg")
     st.image(img_PROP_5, width=700)
-#     st.write("Point éclair = 115,0 °C")
-#     st.image(img5)
-#     st.write("Pas de chlore (test de flamme négatif au chlore)")
 
     st.write(" * ## Helium")
     img_He_1 = Image.open("He_1.jpg")
     st.image(img_He_1, width=700)
+    
+    video_file = open('He_2.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
     
     st.write("------------------------------------------------ ")
   
@@ -78,13 +105,26 @@ if __name__=="__main__":
     st.image(img_O2_3, width=700)
     
     st.write("------------------------------------------------ ")
-       
-    
-    
         
     st.write(" * ## CCl2F2")
     img_CCL2F2 = Image.open("CCL2F2.jpg")
     st.image(img_CCL2F2, width=700)
+    
+    st.write("------------------------------------------------ ")
+        
+    st.write(" * ## UN3501")
+    img_CCL2F2 = Image.open("UN3501_2.jpg")
+    st.image(img_CCL2F2, width=700)
+    
+    video_file = open('UN3501.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+            
+    st.write(" * ## CCl2F2")
+    img_CCL2F2 = Image.open("CCL2F2.jpg")
+    st.image(img_CCL2F2, width=700)
+
+
 
 
   
