@@ -131,7 +131,7 @@ if __name__=="__main__":
    
     st.write("------------------------------------------------ ")
     
-    st.write(" * ## Bouteilles N2O ")
+    st.write(" * ## Bouteilles de protoxyde d'azote N2O ")
     st.write("* Détail sur la vidéo")
     video_file = open('N20_1.mp4', 'rb')
     video_bytes = video_file.read()
