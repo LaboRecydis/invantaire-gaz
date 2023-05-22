@@ -64,15 +64,8 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
     
+    st.write("------------------------------------------------ ")
     
-    st.write("* Septième partie :")
-    img_PROP_4 = Image.open("PROP_4.jpg")
-    st.image(img_PROP_4, width=700)
-    
-    st.write("* Huitième partie :")  
-    img_PROP_5 = Image.open("PROP_5.jpg")
-    st.image(img_PROP_5, width=700)
-
     st.write(" * ## Helium")
     img_He_1 = Image.open("He_1.jpg")
     st.image(img_He_1, width=700)
