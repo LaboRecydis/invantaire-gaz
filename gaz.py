@@ -70,7 +70,7 @@ if __name__=="__main__":
     img_He_1 = Image.open("He_1.jpg")
     st.image(img_He_1, width=700)
     
-    st.write("visualisez la vidéo s'il vous plaît")
+    st.write("Visualisez la vidéo s'il vous plaît")
     video_file = open('He_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -121,7 +121,8 @@ if __name__=="__main__":
     st.write("------------------------------------------------ ")
     
     st.write(" * ## Bouteilles N2O ")
-    video_file = open('N2O.mp4', 'rb')
+    st.write("* Visualisez la vidéo s'il vous plaît")
+    video_file = open('N2O_1.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
