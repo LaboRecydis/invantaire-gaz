@@ -105,9 +105,11 @@ if __name__=="__main__":
     st.write("------------------------------------------------ ")
         
     st.write(" * ## UN3501")
+    st.write("* Première partie")
     img_CCL2F2 = Image.open("UN3501_2.jpg")
     st.image(img_CCL2F2, width=700)
     
+    st.write("* Deuxième partie : visualisez la vidéo s'il vous plaît")
     video_file = open('UN3501.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
