@@ -41,7 +41,7 @@ if __name__=="__main__":
 #     st.image(img3, width=250)
     
     st.write("Vidéos : butane - propane")
-    st.write("* Partie 1)
+    st.write("* Partie 1")
     video_file = open('prop-1_zmdztHeY.mp4', 'rb')
     video_bytes = video_file.read()
 
