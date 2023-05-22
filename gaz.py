@@ -36,17 +36,17 @@ if __name__=="__main__":
     
     st.write(" * ## Butane / Propane")
     
-    st.write("* Première partie : visualisez la vidéo s'il vous plaît")
+    st.write("* Première partie : détail sur la vidéo")
     video_file = open('prop-1_zmdZtHeY.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
-    st.write("* Deuxième partie : visualisez la vidéo s'il vous plaît")
+    st.write("* Deuxième partie : détail sur la vidéo")
     video_file = open('PROP_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
-    st.write("* Troisième partie : visualisez la vidéo s'il vous plaît")
+    st.write("* Troisième partie : détail sur la vidéo")
     video_file = open('PROP_3.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -59,7 +59,7 @@ if __name__=="__main__":
     img_PROP_5 = Image.open("PROP_5.jpg")
     st.image(img_PROP_5, width=700)
     
-    st.write("* Sixième partie : visualisez la vidéo s'il vous plaît")
+    st.write("* Sixième partie : détail sur la vidéo")
     video_file = open('PROP_6.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -70,7 +70,7 @@ if __name__=="__main__":
     img_He_1 = Image.open("He_1.jpg")
     st.image(img_He_1, width=700)
     
-    st.write("Visualisez la vidéo s'il vous plaît")
+    st.write("Détail sur la vidéo")
     video_file = open('He_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -93,7 +93,7 @@ if __name__=="__main__":
     img_O2_1 = Image.open("O2_1.jpg")
     st.image(img_O2_1, width=700)
     
-    st.write("Visualisez la vidéo s'il vous plaît")
+    st.write("Détail sur la vidéo")
     video_file = open('O2_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -114,7 +114,7 @@ if __name__=="__main__":
     img_CCL2F2 = Image.open("UN3501_2.jpg")
     st.image(img_CCL2F2, width=700)
     
-    st.write("* Deuxième partie : visualisez la vidéo s'il vous plaît")
+    st.write("* Deuxième partie : détail sur la vidéo")
     video_file = open('UN3501.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -126,7 +126,7 @@ if __name__=="__main__":
     st.write("------------------------------------------------ ")
     
     st.write(" * ## Bouteilles N2O ")
-    st.write("* Visualisez la vidéo s'il vous plaît")
+    st.write("* Détail sur la vidéo")
     video_file = open('N20_1.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -134,7 +134,7 @@ if __name__=="__main__":
     st.write("------------------------------------------------ ")
     
     st.write(" * ## 58 cartouches de propylène ")
-    st.write("* Visualisez la vidéo s'il vous plaît")
+    st.write("* Détail sur la vidéo")
     video_file = open('PROPYLENE.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
