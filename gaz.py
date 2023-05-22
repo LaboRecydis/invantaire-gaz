@@ -58,7 +58,7 @@ if __name__=="__main__":
     st.write(" * ## CO2")
     img_CO2 = Image.open("CO2.jpg")
     
-    st.image(img_He_1, width=250)
+    st.image(img_CO2, width=250)
  
   
 
