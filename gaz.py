@@ -74,6 +74,15 @@ if __name__=="__main__":
        
     img_O2_3 = Image.open("O2_3.jpg")
     st.image(img_O2_3, width=700)
+    
+    st.write("------------------------------------------------ ")
+       
+    st.write(" * ## Butane / Propane")
+    img_PROP_4 = Image.open("PROP_4.jpg")
+    st.image(img_PROP_4, width=700)
+       
+    img_PROP_5 = Image.open("PROP_5.jpg")
+    st.image(img_PROP_5, width=700)
 
 
   
