@@ -83,6 +83,12 @@ if __name__=="__main__":
        
     img_PROP_5 = Image.open("PROP_5.jpg")
     st.image(img_PROP_5, width=700)
+    
+    st.write("------------------------------------------------ ")
+       
+    st.write(" * ## CCl2F2")
+    img_CCL2F2 = Image.open("CCL2F2.jpg")
+    st.image(img_CCL2F2, width=700)
 
 
   
