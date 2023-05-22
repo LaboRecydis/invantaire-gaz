@@ -35,17 +35,17 @@ if __name__=="__main__":
 
     
     st.write(" * ## Butane / Propane")
-    st.write("Vidéos : butane - propane")
-    st.write("* 1.")
+    
+    st.write("* Première partie :")
     video_file = open('prop-1_zmdZtHeY.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
-    st.write("* 4.")
+    st.write("* Quatrième partie :")
     img_PROP_4 = Image.open("PROP_4.jpg")
     st.image(img_PROP_4, width=700)
     
-    st.write("* 5.")  
+    st.write("* Cinquième partie :")  
     img_PROP_5 = Image.open("PROP_5.jpg")
     st.image(img_PROP_5, width=700)
 #     st.write("Point éclair = 115,0 °C")
