@@ -126,6 +126,14 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
     
+    st.write("------------------------------------------------ ")
+    
+    st.write(" * ## Cartouches de propylène ")
+    st.write("* Visualisez la vidéo s'il vous plaît")
+    video_file = open('PROPYLENE.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
 
 
 
