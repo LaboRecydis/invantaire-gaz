@@ -152,9 +152,9 @@ if __name__=="__main__":
     
     st.write("------------------------------------------------ ")
     
-   st.write(" * ## Cartouches sodastream")
-   img_He_1 = Image.open("He_1.jpg")
-   st.image(img_He_1, width=700)
+    st.write(" * ## Cartouches sodastream")
+    img_He_1 = Image.open("He_1.jpg")
+    st.image(img_He_1, width=700)
 
 
 
