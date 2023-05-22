@@ -33,18 +33,13 @@ if __name__=="__main__":
     st.sidebar.image(img1, width=250)
     st.sidebar.image(img2, width=250)
 
-
     
-#     st.write("Photos du déchet")
-#     st.image(img4, width=250)
-#     st.image(img3, width=250)
-    
+   
     st.write("Vidéos : butane - propane")
     st.write("* Partie 1")
     video_file = open('prop-1_zmdZtHeY.mp4', 'rb')
     video_bytes = video_file.read()
-
-#     st.video(video_bytes)
+    st.video(video_bytes)
     
 #     st.write("Point éclair = 115,0 °C")
 #     st.image(img5)
