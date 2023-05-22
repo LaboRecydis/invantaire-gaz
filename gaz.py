@@ -67,9 +67,11 @@ if __name__=="__main__":
     st.write("------------------------------------------------ ")
     
     st.write(" * ## Helium")
+    st.write("* Première partie")
     img_He_1 = Image.open("He_1.jpg")
     st.image(img_He_1, width=700)
     
+    st.write("* Deuxième partie : détail sur la vidéo")
     st.write("Détail sur la vidéo")
     video_file = open('He_2.mp4', 'rb')
     video_bytes = video_file.read()
@@ -90,19 +92,21 @@ if __name__=="__main__":
     st.write("------------------------------------------------ ")
        
     st.write(" * ## O2")
+    st.write("* Première partie ")
     img_O2_1 = Image.open("O2_1.jpg")
     st.image(img_O2_1, width=700)
     
-    st.write("Détail sur la vidéo")
+    st.write("* Deuxième partie : détail sur la vidéo")
     video_file = open('02_1.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
-    st.write("Détail sur la vidéo")
+    st.write("* Troisiemière partie : détail sur la vidéo")
     video_file = open('O2_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
-       
+    
+    st.write("* Quatrième partie : détail sur la vidéo")
     img_O2_3 = Image.open("O2_3.jpg")
     st.image(img_O2_3, width=700)
     
