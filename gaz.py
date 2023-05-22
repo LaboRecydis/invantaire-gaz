@@ -71,10 +71,7 @@ if __name__=="__main__":
     st.write(" * ## O2")
     img_O2_1 = Image.open("O2_1.jpg")
     st.image(img_O2_1, width=700)
-    
-    st.write("------------------------------------------------ ")
-    
-    st.write(" * ## O2")
+        
     img_O2_3 = Image.open("O2_3.jpg")
     st.image(img_O2_3, width=700)
 
