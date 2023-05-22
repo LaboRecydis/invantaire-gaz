@@ -132,7 +132,12 @@ if __name__=="__main__":
     st.write("------------------------------------------------ ")
     
     st.write(" * ## Bouteilles de protoxyde d'azote N2O ")
-    st.write("* Détail sur la vidéo")
+    st.write("* Première partie : détail sur la vidéo")
+    video_file = open('N20_1.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
+    st.write("* Deuxième partie : détail sur la vidéo")
     video_file = open('N20_1.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
@@ -145,6 +150,12 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
     
+    st.write("------------------------------------------------ ")
+    
+    st.write(" * ## Cartouches sodastream")
+    st.write("* Première partie")
+    img_He_1 = Image.open("He_1.jpg")
+    st.image(img_He_1, width=700)
 
 
 
