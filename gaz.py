@@ -55,26 +55,23 @@ if __name__=="__main__":
     st.image(img_He_1, width=700)
     
     st.write("------------------------------------------------ ")
-    st.write("------------------------------------------------ ")
-    
+  
     st.write(" * ## CO2")
     img_CO2 = Image.open("CO2.jpg")
     st.image(img_CO2, width=700)
     
     st.write("------------------------------------------------ ")
-    st.write("------------------------------------------------ ")
-    
+        
     st.write(" * ## N2")
     img_N2 = Image.open("N2.jpg")
     st.image(img_N2, width=700)
     
     st.write("------------------------------------------------ ")
-    st.write("------------------------------------------------ ")
-    
+       
     st.write(" * ## O2")
     img_O2_1 = Image.open("O2_1.jpg")
     st.image(img_O2_1, width=700)
-    st.write("------------------------------------------------ ")   
+       
     img_O2_3 = Image.open("O2_3.jpg")
     st.image(img_O2_3, width=700)
 
