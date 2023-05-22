@@ -52,15 +52,15 @@ if __name__=="__main__":
 
     st.write(" * ## Helium")
     img_He_1 = Image.open("He_1.jpg")
-    
     st.image(img_He_1, width=500)
     
     st.write(" * ## CO2")
     img_CO2 = Image.open("CO2.jpg")
-    
     st.image(img_CO2, width=500)
  
-  
+    st.write(" * ## N2")
+    img_N2 = Image.open("N2.jpg")
+    st.image(img_N2, width=500)
 
 
   
