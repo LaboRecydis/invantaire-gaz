@@ -49,6 +49,12 @@ if __name__=="__main__":
 #     st.write("Point éclair = 115,0 °C")
 #     st.image(img5)
 #     st.write("Pas de chlore (test de flamme négatif au chlore)")
+
+    st.write("Helium")
+    img_He_1 = Image.open("He_1.jpg")
+    img_He_2 = Image.open("He_2.jpg")
+    st.image(img_He_1, width=250)
+    st.image(img_He_2, width=250)
   
 
 
