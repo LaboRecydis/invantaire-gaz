@@ -128,10 +128,7 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
             
-    st.write(" * ## CCl2F2")
-    img_CCL2F2 = Image.open("CCL2F2.jpg")
-    st.image(img_CCL2F2, width=700)
-
+   
     st.write("------------------------------------------------ ")
     
     st.write(" * ## Bouteilles N2O ")
