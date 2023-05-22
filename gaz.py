@@ -36,7 +36,7 @@ if __name__=="__main__":
     
     st.write(" * ## Butane / Propane")
     
-    st.write("* Première partie :")
+    st.write("* Première partie : visualisez la vidéo s'il vous plaît")
     video_file = open('prop-1_zmdZtHeY.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
