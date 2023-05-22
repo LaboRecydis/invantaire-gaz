@@ -50,7 +50,7 @@ if __name__=="__main__":
 #     st.image(img5)
 #     st.write("Pas de chlore (test de flamme négatif au chlore)")
 
-    st.write("* ## Helium")
+    st.write(" * ## Helium")
     img_He_1 = Image.open("He_1.jpg")
     
     st.image(img_He_1, width=250)
