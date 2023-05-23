@@ -137,7 +137,7 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
     
-    st.write("* Deuxième partie (les petites) : détail sur la vidéo")
+    st.write("* Deuxième partie (les petites) : 12 caisses 600L pleines, détail sur la vidéo")
     video_file = open('NO2_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
