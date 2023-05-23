@@ -146,7 +146,7 @@ if __name__=="__main__":
     
     st.write(" * ## 58 cartouches de propylène ")
     st.write("* Détail sur la vidéo")
-    video_file = open('NO_2.mp4', 'rb')
+    video_file = open('N2O_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
