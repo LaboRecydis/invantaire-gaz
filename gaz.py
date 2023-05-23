@@ -146,14 +146,14 @@ if __name__=="__main__":
     
     st.write(" * ## 58 cartouches de propylène ")
     st.write("* Détail sur la vidéo")
-    video_file = open('PROPYLENE.mp4', 'rb')
+    video_file = open('NO_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
     st.write("------------------------------------------------ ")
     
     st.write(" * ## Cartouches sodastream")
-    img_He_1 = Image.open("He_1.jpg")
+    img_soda = Image.open("soda.jpg")
     st.image(img_He_1, width=700)
 
 
