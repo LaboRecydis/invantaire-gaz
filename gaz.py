@@ -154,7 +154,7 @@ if __name__=="__main__":
     
     st.write(" * ## Cartouches sodastream")
     img_soda = Image.open("soda.jpg")
-    st.image(img_He_1, width=700)
+    st.image(img_soda, width=700)
 
 
 
