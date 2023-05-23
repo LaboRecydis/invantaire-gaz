@@ -138,7 +138,7 @@ if __name__=="__main__":
     st.video(video_bytes)
     
     st.write("* Deuxième partie (les petites) : détail sur la vidéo")
-    video_file = open('N20_2.mp4', 'rb')
+    video_file = open('NO2_2.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     
